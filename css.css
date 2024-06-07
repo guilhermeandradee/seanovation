@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+main .container{
+    font-family: 'inter';
+}
+
+.more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px; 
+    border-radius: 0.25rem; 
+    border: 1px solid #2D2D2D; 
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+.more-btn:hover {
+    background-color: #2D2D2D; 
+}
+
+
+.modal-content {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem;
+    background-color: #e9ecef;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+    padding: 1rem;
+    background-color: #e9ecef;
+    border-radius: 0 0 10px 10px;
+}
+
+/*              header, bannner, topo da pagina                 */
+
+.container-banner {
+    margin-bottom: 7rem;
+}
+
+.svg-header-logo {
+    background-color: #1f1f1f;
+}
+
+.imagem-de-fundo {
+    position: relative; height: 90vh; background-image: url(./imagens/sea.jpeg); background-position: center center; background-size: cover; filter: brightness(0.3); 
+}
+
+.titulo-banner {
+    width: 40%; text-align: center; color: #fff; position: absolute; top: 45%; left: 30%;
+}
+
+.menu {
+    background-color: #2d2d2d;
+}
+
+.menu > ul {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.item-menu {
+    font-size: .9rem;
+}
+
+
+/*     Conteudo principal     */
+
+.h2-main {
+    text-indent: 1rem;
+}
+.h3-main {
+    color: #444444;
+    font-weight: 500;
+
+    text-indent: 1rem;
+}
+.texto-main{
+    color: #898989;
+    text-align: start;
+    text-indent: 2rem;
+
+    margin-bottom: 0;
+}
+
+/*     imagem      */
+.imagem-main {
+    width: 70%;
+    margin-bottom: 7rem;
+}
+
+/*       estudos.html        */ 
+
+.texto-lista-de-problemas {
+    color: #2d2d2d;
+    
+}
+
+/* imagem */
+
+.imagem-lista-problemas {
+    width: 8%;
+}
