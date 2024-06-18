@@ -76,6 +76,7 @@ main .container{
 
 .titulo-banner {
     width: 40%; text-align: center; color: #fff; position: absolute; top: 45%; left: 30%;
+    font-weight: 900;
 }
 
 .menu {
@@ -96,6 +97,9 @@ main .container{
 
 .h2-main {
     text-indent: 1rem;
+    font-family: 'Istok Web';
+    font-weight: 900;
+    color: #2D2D2D;
 }
 .h3-main {
     color: #444444;
@@ -106,10 +110,12 @@ main .container{
 .texto-main{
     color: #898989;
     text-align: start;
-    text-indent: 2rem;
+    text-indent: 1rem;
 
-    margin-bottom: 0;
+    margin-bottom: 1em;
+    text-indent: 2em; /* Indenta os parágrafos em 2em */
 }
+
 
 /*     imagem      */
 .imagem-main {
@@ -128,4 +134,8 @@ main .container{
 
 .imagem-lista-problemas {
     width: 8%;
+}
+
+.imagem-lista-problemas me-5 {
+    font-size: 10rem;
 }
